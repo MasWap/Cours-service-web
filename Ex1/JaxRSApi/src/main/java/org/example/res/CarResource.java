@@ -9,7 +9,7 @@ import jakarta.ws.rs.core.Response;
 import java.util.HashMap;
 import java.util.Map;
 
-@Path("car")
+@Path("cars")
 public class CarResource {
     private static Map<Integer, Car> carsMap = new HashMap<>();
     private static int nextCarId = 1;
